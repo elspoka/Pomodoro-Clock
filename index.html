@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="pomodoro clock, pomodoro, clock">
+    <title>Pomodoro clock made by Ilias Kalantzis</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link rel="icon" type="image/ico" href="assets/favicon.png"/>
+    <link rel="stylesheet" href="style.css">
+    <script src='progressBar.js'></script>
+    <script src='script.js'></script>
+</head>
+
+<body>
+
+<div id="pomodoro-container">
+
+        <div class="pomodoro-title">
+            <div style="text-align: center;">
+            <h1>Pomodoro Clock</h1>
+        </div>
+        </div>
+    <div id="pomodoro-clock">
+        <div id="pomodoro-timer"></div>
+        <div id="pomodoro-clock-actions">
+            <button id="pomodoro-start">
+                <i class="fas fa-play" id="play-icon"></i>
+                <i class="fas fa-pause hidden" id="pause-icon"></i>
+            </button>
+            <button id="pomodoro-stop" class="hidden">
+                <i class="fas fa-stop"></i>
+            </button>
+        </div>
+
+        <div id="pomodoro-clock-actions">
+            <div class="pomodoro-input">
+                <label>Work Duration</label>
+                <input name="input-work-duration" id="input-work-duration" type="number" />
+            </div>
+            <div class="pomodoro-input">
+                <label>Break Duration</label>
+                <input name="input-break-duration" id="input-break-duration" type="number" />
+            </div>
+        </div>
+        <div id="pomodoro-info">
+            <br>
+            <div style="text-align: center;">
+           <p>Contact information: <a href="mailto:ikalantzis@protonmail.com">ikalantzis@protonmail.com</a>.</p>
+            <p>Source code <a href="https://github.com/elspoka/genderization">here</a>.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+</body>
+
+</html>
